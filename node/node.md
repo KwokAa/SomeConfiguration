@@ -140,7 +140,7 @@ cd gcc-build-4.9.0
 ../configure -enable-checking=release -enable-languages=c,c++ -disable-multilib
 ```
 
- 编译（注意：非常耗时）
+ 编译（注意：非常耗时，1个小时左右）
 
 ```
  make  -j4
@@ -173,7 +173,7 @@ rm libstdc++.so.6 -y
 建立软连接 
 
 ```
-cp /usr/local/lib64/libstdc++.so.6.0.18 /usr/lib64
+cp /usr/local/lib64/libstdc++.so.6.0.20 /usr/lib64
 
 ln libstdc++.so.6.0.20 libstdc++.so.6 
 ```
@@ -194,3 +194,4 @@ npm -v
 ```
 
 ![vartar](node-pic/image-20210622004240074.png)
+
