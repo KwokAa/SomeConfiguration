@@ -195,3 +195,25 @@ npm -v
 
 ![vartar](node-pic/image-20210622004240074.png)
 
+
+
+#### 运行node项目缺少依赖
+
+![vartar](node-pic/image-20210622112234717.png)
+
+
+
+安装依赖
+
+```
+npm install express
+
+npm install express-generator
+```
+
+![vartar](node-pic/image-20210622112139162.png)
+
+
+
+
+
