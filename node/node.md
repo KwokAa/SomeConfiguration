@@ -167,7 +167,7 @@ find / -name "libstdc++.so*"
 ```
 cd  /usr/lib64 
 
-rm libstdc++.so.6 -y
+rm  -f libstdc++.so.6
 ```
 
 建立软连接 
